@@ -66,16 +66,16 @@ Ellipse Parameters
   Theta, counter clockwise angle of rotation between the input axis and the semi-major axis of the loop.In degrees and radians respectively.
   }
   \item{semi.major}{
-  Semi major axis of ellipse, maximum distance from center to perimeter of ellipse.
+  Half major axis of ellipse,1/2 maximum distance from center to perimeter of ellipse.
   }
   \item{semi.minor}{
-  Semi minor axis of ellipse, shortest distance from center to perimeter of ellipse. 
+  Half minor axis of ellipse, 1/2 shortest distance from center to perimeter of ellipse. 
   }
   \item{focus.x, focus.y}{
-Input and output distances of focus points from center.
+Input x and output y distances of focus points from center.
   }
    \item{eccentricity}{
-Measure of deviation from circle,
+Measure of deviation from circle,(0 means no deviation from a circle)
 \deqn{\sqrt{\frac{semi.major^2-semi.minor^2}/{semi.major^2}}}
   }
 }
